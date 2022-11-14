@@ -9,9 +9,39 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-image: url(../images/pexels-tara-winstead-7723806.jpg);
-    background-size: cover;
+:root {
+
+    
+}
+body, html {
+    height: 100%;
+}
+
+#bg {
+    background-image: url(../images/bg.jpg);
+    height: 100%; 
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+header {
     display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 90%;
+    border: 1px solid red;
+    margin: auto auto;
+}
+
+input {
+    height: 120px;
+    font-size: 2rem;
+    width: 80%;
+    padding-left: 10%;
 }
