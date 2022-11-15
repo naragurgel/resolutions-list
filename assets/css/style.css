@@ -10,9 +10,13 @@
 }
 
 :root {
-
-    
+    --gray: #dddbdC;
+    --blue: #5b95bc;
+    --light: #bdced2;
+    --rose: #D9BEB0;
+    --gold: #B8AA95;
 }
+
 body, html {
     height: 100%;
 }
