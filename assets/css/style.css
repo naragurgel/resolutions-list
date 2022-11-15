@@ -32,6 +32,7 @@ body, html {
 h1 {
     text-align: center;
     font-size: 3rem;
+    padding: 30px;
 }
 
 header {
@@ -78,8 +79,17 @@ main {
     height: 80px;
     width: 100%;
     box-shadow: 0 0 20px #B8AA95;
+    margin-bottom: 2%;
 }
 
+.clicked.item{
+    background: var(--rose);
+}
+
+.clicked.item .icon-name{
+    text-decoration: line-through;
+    color: var(--gray);
+}
 .icon-item {
     flex: 20%;
     text-align: center;
@@ -97,10 +107,14 @@ main {
 }
 
 .delete {
-    background: var(--rose);
-    color: var(--gray);
+    background: var(--light);
+    color: black;
     border: none;
     padding: 10px;
     height: 80px;
     width: 100%;
+}
+
+.mdi-check-circle {
+    color: var(--blue);
 }
