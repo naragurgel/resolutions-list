@@ -106,7 +106,7 @@ main {
     flex: 25%;
 }
 
-.delete {
+.delet {
     background: var(--light);
     color: black;
     border: none;
