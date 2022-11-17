@@ -14,7 +14,7 @@ function addResolution() {
         
         let newItem= `<div id="${count}" class="item">
         <div onclick="tagTask(${count})" class="icon-item">
-            <i class="mdi mdi-circle-outline"></i>
+            <i id="icon_${count}" class="mdi mdi-circle-outline"></i>
 
         </div>
         <div onclick="tagTask(${count})" class="icon-name">
@@ -36,7 +36,7 @@ function addResolution() {
     }
 }
 
-//making the giving button work as it should
+
 function delet(id) {
     var task = document.getElementById(id);
     task.remove();
@@ -46,6 +46,26 @@ function tagTask(id){
     var item = document.getElementById(id);
     var kind = item.getAttribute('class');
     console.log(kind);
+
+    if(kind=="item"){
+        item.classList.add('clicked')
+       
+        //shows the task as done or not 
+        var icon = document.getElementById('icon_'+id)
+        icon.classList.remove('mdi-circle-outline');
+        icon.classList.add('mdi-check-circle');
+
+    //send the clicked item to the end of the list
+        item.parentNode.appendChild(item);
+
+    } else {
+        item.classList.remove('clicked')
+
+        //shows the task as done or not 
+        var icon = document.getElementById('icon_'+id);
+        icon.classList.remove('mdi-check-circle');
+        icon.classList.add('mdi-circle-outline');
+    }
 }
 //when enter is pressed, submit the item to the list
 input.addEventListener("keyup", function(event) {
