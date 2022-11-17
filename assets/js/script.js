@@ -36,12 +36,17 @@ function addResolution() {
     }
 }
 
+//making the giving button work as it should
 function delet(id) {
     var task = document.getElementById(id);
     task.remove();
 }
 
-
+function tagTask(id){
+    var item = document.getElementById(id);
+    var kind = item.getAttribute('class');
+    console.log(kind);
+}
 //when enter is pressed, submit the item to the list
 input.addEventListener("keyup", function(event) {
     if(event.keyCode === 13) {
