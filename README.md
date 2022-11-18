@@ -1,108 +1,156 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Resolution's List**
 
-Welcome naragurgel,
+Resolution's List New Year ate the determinations or goals that we set at the beginning of the year. Usually, the New Years represents a new starting, so people like to leave bab habits behind and try new things.
+In this list they can add new itens, mark them as done or also delete them any time.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Live Site
+[Resolution's List]
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Repository 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- - -
 
-`python3 -m http.server`
+## **Table of Contents**
 
-A blue button should appear to click: _Make Public_,
+1. [UX Development](#ux-development)
+    * [Project Goal](#project-goal)
 
-Another blue button should appear to click: _Open Browser_.
+    * [User Stories](#user-stories)
+        * [New User](#new-user)
+        * [Returning Users](#returning-users)
+        * [Target Audience](#target-audience)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    * [Design](#design)
+        * [Colour Scheme](#colour-scheme)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
+        * [Site Structure](#site-structure)
+      
+2. [Features](#features)  
+    * [Header](#header)
+    * [Type your resolution](#type-your-resolution)
+    * [Items of the list](#items-of-the-list)
+    * [Favicon](#favicon)
+        
+3. [Technology Used](#technology-used)  
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
 
-A blue button should appear to click: _Make Public_,
+4. [Testing](#testing)
 
-Another blue button should appear to click: _Open Browser_.
+5. [Deployment](#deployment)  
+  
+6. [Credits](#credits)  
+ 
+7. [Media](#media)  
+- - -
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# **Table of Contents**
 
-To log into the Heroku toolbelt CLI:
+## UX Development
+ ### Project Goal
+Demonstrate my competence using HTML,CSS and Java Script languages to build a responsive website.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The page should promote a resolution's list where the user can interact adding, deleting and changing itens any time.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## User Stories
+### New User 
+* I want to set up a list of goals for the New Year.
 
-------
+### Returning Users
+* I want to add more itens.
+* I want to edit or delet a item from the list.
 
-## Release History
+### Target Audience
+* People interested about organize determitations for the next New Year.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Design
+### Colour Scheme
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The colour scheme was inspired by the bg image, with gold, gray, green, rose and blue tones.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The colour palette was created using the to generate some colour codes as inspiration for the site.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Typography
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Google Fonts was used for the following font:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Roboto is used for the page. It's a modern and smooth font that brings clarety to the text.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Imagery
+The photos featured throughout the site were obtained from free image providers such as Pexels. I chose the bg-image for the background because it is an image that has party confetti, it refers to celebrations and that is why it is associated with the new year celebration. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Site Structure
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Resolution's List is 1 pages website, where the user can easily interact creating a list of goals.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Header
+- The header show cleary to the user the name of the list.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Type your resolution
+- The bar with the input and button to Add a item to the list is where the user can type the resolution text.
+- There is a button just beside of it to the user click and add the data to the list.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Items of the list
+- After the user Add a new item do the list, they can mark it as done or delete it.
+- When the user mark a item as done, it goes to the botton of the list, thus the user will see what they still have to do on the top of the list. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Favicon 
+- The icon in the browers page is the logo of the page.
 
-------
+### Languages Used
 
-## FAQ about the uptime script
+-HTML, CSS and Java Script were used to creat this page.
 
-**Why have you added this script?**
+### Frameworks, Libraries and Programs
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- [coolors.co](https://coolors.co/d3ab9e-eac9c1-ebd8d0-fffbff-fefeff) - the colour scheme was inspired by colours generated here 
+- [Material Design Icons](https://materialdesignicons.com/) - icons implemented throughout the page
+- [Google Fonts](https://fonts.google.com/) - Both fonts used in the website imported from here 
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment style and general responsiveness. 
+- [Gitpod](https://www.gitpod.io/) - used to used to create and host the website
+- [Github](https://github.com/) - used to deploy the website 
+- [Am I responsive](https://ui.dev/amiresponsive) - to create an image displaying the home page on various devices 
+   
+### Deployment 
 
-**How will this affect me?**
+The site was deployed to GitHub pages. 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Deploy to GitHub Pages
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+1. Navigate to the settings tab in the GitHub repository 
+2. Once in settings, navigate to the pages tab on the left of the page 
+3. Under source, select branch ‘main’ and then click ‘save’
+4. page will no automatically refresh and show a detailed ribbon display to indicate deployment 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### To Fork the Repository 
 
-**So….?**
+To make a copy or ‘fork’ the repository - 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+1. Log into GitHub and locate repository 
+2. On the right hand side of the page select the ‘fork’ option to create and copy of the original
 
-**Can I opt out?**
+### To create a Local Clone 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+1. Under the repository name, click on the ‘code’ tab 
+2. In the clone box, HTTPS tab, click on the clipboard icon 
+3. In your IED open GitBash 
+4. Changed the current working directory to the location you want the cloned directory to be made
+5. Type ‘git clone’ and then paste the URL copied from GitHub
+6. Press enter and the local clone will be created 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Testing
 
-**Anything more?**
+[Testing.md](TESTING.md) 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Credits 
 
----
 
-Happy coding!
+## Media
+- Bg image is from Pexels website, free images.
+
+

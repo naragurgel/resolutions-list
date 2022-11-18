@@ -38,20 +38,20 @@ function addResolution() {
 
 
 function delet(id) {
-    var task = document.getElementById(id);
+    let task = document.getElementById(id);
     task.remove();
 }
 
 function tagTask(id){
-    var item = document.getElementById(id);
-    var kind = item.getAttribute('class');
+    let item = document.getElementById(id);
+    let kind = item.getAttribute('class');
     console.log(kind);
 
     if(kind=="item"){
         item.classList.add('clicked')
        
         //shows the task as done or not 
-        var icon = document.getElementById('icon_'+id)
+        let icon = document.getElementById('icon_'+id)
         icon.classList.remove('mdi-circle-outline');
         icon.classList.add('mdi-check-circle');
 
@@ -62,7 +62,7 @@ function tagTask(id){
         item.classList.remove('clicked')
 
         //shows the task as done or not 
-        var icon = document.getElementById('icon_'+id);
+        let icon = document.getElementById('icon_'+id);
         icon.classList.remove('mdi-check-circle');
         icon.classList.add('mdi-circle-outline');
     }
