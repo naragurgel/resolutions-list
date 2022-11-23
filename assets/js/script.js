@@ -36,12 +36,13 @@ function addResolution() {
     }
 }
 
-
+//delete item
 function delet(id) {
     let task = document.getElementById(id);
     task.remove();
 }
 
+// tag as done or not
 function tagTask(id){
     let item = document.getElementById(id);
     let kind = item.getAttribute('class');

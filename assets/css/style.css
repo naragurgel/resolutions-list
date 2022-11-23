@@ -9,6 +9,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/*colours*/
 :root {
     --gray: #dddbdC;
     --blue: #5b95bc;
@@ -21,6 +22,7 @@ body, html {
     height: 100%;
 }
 
+/* image background */
 #bg {
     background-image: url(../images/bg.jpg);
     height: 100%; 
@@ -29,6 +31,7 @@ body, html {
     background-size: cover;
   }
 
+/* tittle */
 h1 {
     text-align: center;
     color: white;
@@ -48,6 +51,7 @@ header {
     border-bottom-left-radius: 10px;
 }
 
+/* box for input text */
 input {
     height: 120px;
     font-size: 2rem;
@@ -55,6 +59,7 @@ input {
     padding-left: 10%;
 }
 
+/* button to add info to the list */
 button.add {
     width: 20%;
     cursor: pointer;
@@ -89,6 +94,7 @@ main {
     cursor: pointer;
 }
 
+/* icon to mark as done */
 .clicked.item{
     background: var(--rose);
 }
@@ -113,6 +119,7 @@ main {
     flex: 25%;
 }
 
+/* delete button */
 .delet {
     background: var(--light);
     color: black;
