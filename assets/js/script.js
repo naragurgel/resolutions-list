@@ -68,7 +68,7 @@ function tagTask(id){
         icon.classList.add('mdi-circle-outline');
     }
 }
-//when enter is pressed, submit the item to the list
+//To submit the item to the list when the user press enter tab
 input.addEventListener("keyup", function(event) {
     if(event.keyCode === 13) {
         event.preventDefault();
@@ -76,3 +76,26 @@ input.addEventListener("keyup", function(event) {
     }
 })
 
+/**
+ * Function to save the resolution data into local storage so user doesn't have to reenter data if they come back to the site 
+ * 
+ * data will be stored in "naragurgelResolutionsList"
+ */
+
+function saveResolutionData(){
+    const resolutions= document.querySelectorAll('#listReso div.item');
+    let reso_array= [];
+    // loop through items & make it json data
+    for (const resolution of resolutions) {
+        const text = resolution.querySelector('.icon-name').innerHTML.trim();
+        const completed = resolution.classList.contains('clicked')? 'yes' : 'no';
+        new_resolution= {
+            'text': text,
+            'complete': completed
+        };
+        reso_array.push(new_resolution);
+    };
+    const reso_object={resolutions: reso_array};
+    //save data to local storage
+    localStorage.setItem('naragurgelResolutionsList', JSON.stringify(reso_object));
+}
