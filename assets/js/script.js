@@ -14,9 +14,9 @@ function createNewResolutionItem(dataInput, isClicked){
         <div onclick="tagTask(${count})" class="icon-item">`;
 
         if (isClicked==='cliked') {
-            newItem += `<i id="icon_${count}" class=mdi mdi-check-circle"></i>`;
+            newItem += `<i id="icon_${count}" class="mdi mdi-check-circle"></i>`;
         } else {
-            newItem += `<i id="icon_${count}" class=mdi mdi-circle-outline"></i>`;
+            newItem += `<i id="icon_${count}" class="mdi mdi-circle-outline"></i>`;
         }
         newItem += `</div>
         <div onclick="tagTask(${count})" class="icon-name">
