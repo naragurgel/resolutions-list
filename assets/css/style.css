@@ -74,7 +74,7 @@ button.add {
     font-size: 2rem;
 }
 
-main {
+#listReso {
     display: flex;
     flex-flow: row wrap;
     width: 90%;
