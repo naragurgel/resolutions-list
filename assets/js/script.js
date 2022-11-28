@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let count = 0;
 let input = document.getElementById('inputReso');
 let btnAdd = document.getElementById('btn-add');
@@ -6,7 +7,7 @@ let main = document.getElementById('listReso');
 function createNewResolutionItem(dataInput, isClicked){
     //If it is not empty, null or undefined 
     if((dataInput !=="") && (dataInput !== null) && (dataInput !== undefined)) {
-        
+        // getting html and adding data with JS
         ++count;
         
         let newItem= `<div id="${count}" class="item ${isClicked}">
@@ -33,24 +34,24 @@ function createNewResolutionItem(dataInput, isClicked){
 }
 
 function addResolution() {
-    //get the input data
+    //to get the data from the input
     let dataInput = input.value;
 
     createNewResolutionItem(dataInput, '');
 
-    //clean the inputs 
+    //to clean the inputs after the user submit a data
     input.value= "";
     input.focus();
 }
 
-//delete item
+//to delete a item from the list
 function delet(id) {
     let task = document.getElementById(id);
     task.remove();
     saveResolutionData();
 }
 
-// when the user tag as checks or unchecks
+// when the user tag as checks or unchecks each item from the list
 function tagTask(id){
     let item = document.getElementById(id);
     let kind = item.getAttribute('class');
@@ -63,7 +64,7 @@ function tagTask(id){
         icon.classList.remove('mdi-circle-outline');
         icon.classList.add('mdi-check-circle');
 
-    //send the clicked item to the end of the list
+    //to send the clicked item to the end of the list
         item.parentNode.appendChild(item);
 
     } else {
@@ -114,7 +115,7 @@ function saveResolutionData(){
  * loops through local storage item 'naragurgelResolutionsList' for resolutions & creates elements if expected data structure ir present 
  */
 
-function preloadResolutionsFromLocalStoragr (){
+function preloadResolutionsFromLocalStorage (){
     let reso_object= JSON.parse(localStorage.getItem('naragurgelResolutionList'));
     if (reso_object !== null && typeof(reso_object.resolutions) !== undefined && reso_object.resolution)
     for (const resolution of reso_object.resolutions) {
@@ -124,5 +125,16 @@ function preloadResolutionsFromLocalStoragr (){
             const clicked= resolution.complete === 'yes'? 'clicked' : '';
             createNewItem(dataInput, clicked);
         }
+    }
+}
+
+/**
+ * All resouces are ready, check 
+ */
+
+document.onreadystatechange = function () {
+    let state = document.readyState;
+    if (state == 'complete') {
+        preloadResolutionsFromLocalStorage();
     }
 }
