@@ -3,20 +3,21 @@ let input = document.getElementById('inputReso');
 let btnAdd = document.getElementById('btn-add');
 let main = document.getElementById('listReso');
 
-function addResolution() {
-    //get the input data
-    let dataInput = input.value;
-
+function createNewResolutionItem(dataInput, isClicked){
     //If it is not empty, null or undefined 
     if((dataInput !=="") && (dataInput !== null) && (dataInput !== undefined)) {
         
         ++count;
         
-        let newItem= `<div id="${count}" class="item">
-        <div onclick="tagTask(${count})" class="icon-item">
-            <i id="icon_${count}" class="mdi mdi-circle-outline"></i>
+        let newItem= `<div id="${count}" class="item ${isClicked}">
+        <div onclick="tagTask(${count})" class="icon-item">`;
 
-        </div>
+        if (isClicked==='cliked') {
+            newItem += `<i id="icon_${count}" class=mdi mdi-check-circle"></i>`;
+        } else {
+            new item += `<i id="icon_${count}" class=mdi mdi-circle-outline"></i>`;
+        }
+        newItem += `</div>
         <div onclick="tagTask(${count})" class="icon-name">
             ${dataInput}
         </div>
@@ -28,12 +29,18 @@ function addResolution() {
 
         //add new item to the main section
         main.innerHTML += newItem;
-
-        //clean the inputs 
-        input.value= "";
-        input.focus();
-
     }
+}
+
+function addResolution() {
+    //get the input data
+    let dataInput = input.value;
+
+    createNewResolutionItem(dataInput, '');
+
+    //clean the inputs 
+    input.value= "";
+    input.focus();
 }
 
 //delete item
@@ -43,7 +50,7 @@ function delet(id) {
     saveResolutionData();
 }
 
-// tag as done or not
+// when the user tag as checks or unchecks
 function tagTask(id){
     let item = document.getElementById(id);
     let kind = item.getAttribute('class');
@@ -51,8 +58,7 @@ function tagTask(id){
 
     if(kind=="item"){
         item.classList.add('clicked')
-       
-        //shows the task as done or not 
+        
         let icon = document.getElementById('icon_'+id)
         icon.classList.remove('mdi-circle-outline');
         icon.classList.add('mdi-check-circle');
@@ -63,7 +69,6 @@ function tagTask(id){
     } else {
         item.classList.remove('clicked')
 
-        //shows the task as done or not 
         let icon = document.getElementById('icon_'+id);
         icon.classList.remove('mdi-check-circle');
         icon.classList.add('mdi-circle-outline');
@@ -101,4 +106,23 @@ function saveResolutionData(){
     const reso_object={resolutions: reso_array};
     //save data to local storage
     localStorage.setItem('naragurgelResolutionsList', JSON.stringify(reso_object));
+}
+
+/**
+ * Function to preload resolutions from local storage
+ * 
+ * loops through local storage item 'naragurgelResolutionsList' for resolutions & creates elements if expected data structure ir present 
+ */
+
+function preloadResolutionsFromLocalStoragr (){
+    let reso_object= JSON.parse(localStorage.getItem('naragurgelResolutionList'));
+    if (reso_object !== null && typeof(reso_object.resolutions) !== undefined && reso_object.resolution)
+    for (const resolution of reso_object.resolutions) {
+        //mke sure we have the two expect parts of the resolution
+        if (typeof(resolution.text) !== undefined && typeof(resolution.complete !== undefined)){
+            const dataInput= resolution.text
+            const clicked= resolution.complete === 'yes'? 'clicked' : '';
+            createNewItem(dataInput, clicked);
+        }
+    }
 }
