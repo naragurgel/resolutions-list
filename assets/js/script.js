@@ -16,7 +16,7 @@ function createNewResolutionItem(dataInput, isClicked){
         if (isClicked==='cliked') {
             newItem += `<i id="icon_${count}" class=mdi mdi-check-circle"></i>`;
         } else {
-            new item += `<i id="icon_${count}" class=mdi mdi-circle-outline"></i>`;
+            newItem += `<i id="icon_${count}" class=mdi mdi-circle-outline"></i>`;
         }
         newItem += `</div>
         <div onclick="tagTask(${count})" class="icon-name">
@@ -64,9 +64,6 @@ function tagTask(id){
         icon.classList.remove('mdi-circle-outline');
         icon.classList.add('mdi-check-circle');
 
-    //to send the clicked item to the end of the list
-        item.parentNode.appendChild(item);
-
     } else {
         item.classList.remove('clicked')
 
@@ -76,6 +73,7 @@ function tagTask(id){
     }
     saveResolutionData();
 }
+
 //To submit the item to the list when the user press enter tab
 input.addEventListener("keyup", function(event) {
     if(event.keyCode === 13) {
@@ -118,7 +116,7 @@ function saveResolutionData(){
 function preloadResolutionsFromLocalStorage (){
     let reso_object= JSON.parse(localStorage.getItem('naragurgelResolutionList'));
     if (reso_object !== null && typeof(reso_object.resolutions) !== undefined && reso_object.resolution)
-    for (const resolution of reso_object.resolutions) {
+    for (const resolution of reso_object.resolutions.count > 0 ) {
         //mke sure we have the two expect parts of the resolution
         if (typeof(resolution.text) !== undefined && typeof(resolution.complete !== undefined)){
             const dataInput= resolution.text
