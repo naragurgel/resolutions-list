@@ -40,6 +40,7 @@ function addResolution() {
 function delet(id) {
     let task = document.getElementById(id);
     task.remove();
+    saveResolutionData();
 }
 
 // tag as done or not
@@ -67,12 +68,14 @@ function tagTask(id){
         icon.classList.remove('mdi-check-circle');
         icon.classList.add('mdi-circle-outline');
     }
+    saveResolutionData();
 }
 //To submit the item to the list when the user press enter tab
 input.addEventListener("keyup", function(event) {
     if(event.keyCode === 13) {
         event.preventDefault();
         btnAdd.click();
+        saveResolutionData();
     }
 })
 
