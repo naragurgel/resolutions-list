@@ -1,7 +1,7 @@
 # **Resolution's List**
 
-Resolution's List New Year ate the determinations or goals that we set at the beginning of the year. Usually, the New Years represents a new starting, so people like to leave bab habits behind and try new things.
-In this list they can add new itens, mark them as done or also delete them any time.
+Resolution's List New Year ate the determinations or goals that we set at the beginning of the year. Usually, the New Years represents a new starting, so people like to leave bad habits behind and try new things.
+In this list they can add new items, mark them as done or also delete them any time.
 
 ## Live Site
 [Resolution's List]
@@ -17,9 +17,9 @@ In this list they can add new itens, mark them as done or also delete them any t
     * [Project Goal](#project-goal)
 
     * [User Stories](#user-stories)
-        * [New User](#new-user)
+        * [First Time Visitors](#first-time-visitors)
         * [Returning Users](#returning-users)
-        * [Target Audience](#target-audience)
+        * [Site Owners Goals](#site-owners-goals)
 
     * [Design](#design)
         * [Colour Scheme](#colour-scheme)
@@ -33,7 +33,7 @@ In this list they can add new itens, mark them as done or also delete them any t
     * [Items of the list](#items-of-the-list)
     * [Favicon](#favicon)
         
-3. [Technology Used](#technology-used)  
+3. [Technologies Used](#technologies-used)  
     * [Languages Used](#languages-used)
     * [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
 
@@ -50,20 +50,27 @@ In this list they can add new itens, mark them as done or also delete them any t
 
 ## UX Development
  ### Project Goal
-Demonstrate my competence using HTML,CSS and Java Script languages to build a responsive website.
+Demonstrate my competence using HTML,CSS and Java Script languages to build a responsive and interactive website.
 
-The page should promote a resolution's list where the user can interact adding, deleting and changing itens any time.
+The page should promote a new years resolution's list where the user can interact adding, deleting and tag the itens as check or unchecks.
 
 ## User Stories
-### New User 
-* I want to set up a list of goals for the New Year.
+### First Time Visitors
+* Be able to creat a list of goals for the New Year.
+* People interested about organize determitations for the next New Year.
+* A simple designer and clear structure to easily navigate the page.
+* Able to open and edit from mobile or desktop.
 
 ### Returning Users
-* I want to add more itens.
-* I want to edit or delet a item from the list.
+* Be able to add more itens.
+* Be able to tag the itens as check or unchecks.
+* Be able to delete a item from the list.
 
-### Target Audience
-* People interested about organize determitations for the next New Year.
+### Site Owners Goals
+* Create an easily navigated site using a single page format.
+* Use single-page layout
+* Give a positive user experience through colours and layout.
+* Created the storage data to save the items for the user.
 
 ## Design
 ### Colour Scheme
@@ -73,47 +80,46 @@ The colour scheme was inspired by the bg image, with gold, gray, green, rose and
 ![image](https://user-images.githubusercontent.com/112726044/204652701-665c9882-a7fa-4af2-ac44-cf1e00e816e3.png)
 
 The colour palette was created using the to generate some colour codes as inspiration for the site.
+The colours are cheerful tones that match the image that brings the feeling of a party, celebration, and a fresh start.
 
 ### Typography
 
 Google Fonts was used for the following font:
 
-Roboto is used for the page. It's a modern and smooth font that brings clarety to the text.
+Roboto is used for the page. It's a modern and smooth font that brings clarity to the text.
 
 ### Imagery
 The photos featured throughout the site were obtained from free image providers such as Pexels. I chose the bg-image for the background because it is an image that has party confetti, it refers to celebrations and that is why it is associated with the new year celebration. 
 
 ### Site Structure
 
-Resolution's List is 1 pages website, where the user can easily interact creating a list of goals.
+Resolution's List is 1 pages website, where the user can easily interact creating a list of wishes for the next year.
 
 ## Features
 
 ### Header
-- The header show cleary to the user the name of the list.
+- The header show clearly to the user the name of the list.
 
 ![image](https://user-images.githubusercontent.com/112726044/204653223-f9c3d9d6-9221-4579-b4a9-9c31e8e17a9b.png)
 
 ### Type your resolution
-- The bar with the input and button to Add a item to the list is where the user can type the resolution text.
-- There is a button just beside of it to the user click and add the data to the list.
+- The bar with the input where the user can type the resolution text and there is a button just beside to add an item to the list.
 
 ![image](https://user-images.githubusercontent.com/112726044/204653316-4a94895d-c576-4ff1-835a-c8ac03cb376a.png)
 
 ### Items of the list
-- After the user Add a new item do the list, they can mark it as done or delete it.
-- When the user mark a item as done, it goes to the botton of the list, thus the user will see what they still have to do on the top of the list. 
+- After the user add a new item do the list, they can tag the item has done or not yet, they can also delete it.
 
 ![image](https://user-images.githubusercontent.com/112726044/204653434-cd293512-777d-410f-bb54-86bd37549eee.png)
 
 ### Favicon 
-- The icon in the browers page is the logo of the page.
+- The icon in the browser page is a list.
 
 ![image](https://user-images.githubusercontent.com/112726044/204653471-4c925061-0ca8-4f4e-b439-37f7ef70dcab.png)
 
 ### Languages Used
 
--HTML, CSS and Java Script were used to creat this page.
+-HTML, CSS and Java Script were used to create this page.
 
 ### Frameworks, Libraries and Programs
 
