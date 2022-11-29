@@ -70,6 +70,7 @@ The page should promote a resolution's list where the user can interact adding, 
 
 The colour scheme was inspired by the bg image, with gold, gray, green, rose and blue tones.
 
+![image](https://user-images.githubusercontent.com/112726044/204652701-665c9882-a7fa-4af2-ac44-cf1e00e816e3.png)
 
 The colour palette was created using the to generate some colour codes as inspiration for the site.
 
@@ -91,16 +92,24 @@ Resolution's List is 1 pages website, where the user can easily interact creatin
 ### Header
 - The header show cleary to the user the name of the list.
 
+![image](https://user-images.githubusercontent.com/112726044/204653223-f9c3d9d6-9221-4579-b4a9-9c31e8e17a9b.png)
+
 ### Type your resolution
 - The bar with the input and button to Add a item to the list is where the user can type the resolution text.
 - There is a button just beside of it to the user click and add the data to the list.
+
+![image](https://user-images.githubusercontent.com/112726044/204653316-4a94895d-c576-4ff1-835a-c8ac03cb376a.png)
 
 ### Items of the list
 - After the user Add a new item do the list, they can mark it as done or delete it.
 - When the user mark a item as done, it goes to the botton of the list, thus the user will see what they still have to do on the top of the list. 
 
+![image](https://user-images.githubusercontent.com/112726044/204653434-cd293512-777d-410f-bb54-86bd37549eee.png)
+
 ### Favicon 
 - The icon in the browers page is the logo of the page.
+
+![image](https://user-images.githubusercontent.com/112726044/204653471-4c925061-0ca8-4f4e-b439-37f7ef70dcab.png)
 
 ### Languages Used
 
