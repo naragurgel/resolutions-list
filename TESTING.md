@@ -1,3 +1,4 @@
+
 # Testing
 
 The Be Present site has been tested in the following ways - 
@@ -6,8 +7,6 @@ The Be Present site has been tested in the following ways -
     - [W3C HTML Validator](#w3c-html-validator) 
     - [W3C CSS Validator](#w3c-css-validator)
 - [Lighthouse](#lighthouse)
-- [A11y Color Contrast Accessibility Checker](#a11y-color-contrast-accessibility-checker)
-- [Browser Compatibility](#browser-compatibility)
 - [Manual Testing](#manual-testing)
 - [Bugs](#bugs)
     - [Defects of Note](#defects-of-note) 
@@ -19,19 +18,21 @@ The Be Present site has been tested in the following ways -
 
 Main Page
 
-
 ### W3C CSS Validator 
 
 All pages passed the HTML and CSS validator without error. 
+
 PAGE 404
+
 ![image](https://user-images.githubusercontent.com/112726044/204643835-0ea46c95-6cc9-4a01-9e71-c29ce9dd17bf.png)
 
 INDEX
+
 ![image](https://user-images.githubusercontent.com/112726044/204644040-df9f09fd-035b-4e26-97fe-568406a4d5a1.png)
 
 CSS
-![image](https://user-images.githubusercontent.com/112726044/204644288-fafa63b9-7cf0-4a77-889c-373df8c400cd.png)
 
+![image](https://user-images.githubusercontent.com/112726044/204644288-fafa63b9-7cf0-4a77-889c-373df8c400cd.png)
 
 ### Lighthouse 
 
@@ -45,30 +46,6 @@ I Used Lighthouse in Chrome Developer Tools to test each of the pages for:
 - SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
 
 - As an example, the results for the Be present website for desktop.
-
-### A11y Color Contrast Accessibility Checker
-
-Colour contrast tests were carried out across the website and all came back without issue. 
-
-
-
-### Browser Compatibility
-
-The site was tested and I ensured my site is working well as fallow in the table below:
-
-| Device             | BROSWER        | OS           | VIEWPOINT     |
-|--------------------|----------------|--------------|---------------|
-| Iphone 11          | Safari         | iOS, v14     | 414 x 715px   |
-| Iphone 12          | Safari         | iOS, v16     | 428 x 746px   |
-| Vivo Y21           | Firefox        | Android, v11 | 384x 724px    |
-| OnePlus 6T         | Chrome         | Android, v9  | 412 x 757px   |
-| Samsung Galaxy     | Samsung        | Android, v12 | 360 x 649px   |
-| Motorola Moto G71  | Chrome         | Android, v11 | 412 x 797px   |
-| Huawei P30         | Firefox        | Android, v09 | 360 x 657px   |
-| Samsung Galaxy Tab | Chrome         | Android, v12 | 753 x 1037px  |
-| Ipad Pro 12.9      | Safari         | iOS, V12     | 1024 x 1292px |
-| Windows 10         | Microsoft Edge | Windows 10   | 1920 x 946px  |
-| MAC BOOK           | Safari 12.1    | Mohave       | 1400 x 766px  |
 
 ## Manual Testing
 
@@ -87,16 +64,10 @@ The site was tested and I ensured my site is working well as fallow in the table
 
 ## Bugs
 
-
 ### Defects of Note
 
 ### Unresolved
 
-
 ## README
 
 [README.md](README.md) 
-
-
-
-
