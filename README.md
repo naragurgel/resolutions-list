@@ -26,6 +26,7 @@ In this list they can add new items, mark them as done or also delete them any t
         * [Typography](#typography)
         * [Imagery](#imagery)
         * [Site Structure](#site-structure)
+        * [Wireframes](#wireframes)
       
 2. [Features](#features)  
     * [Header](#header)
@@ -122,10 +123,22 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 
 ![image](https://user-images.githubusercontent.com/112726044/204653434-cd293512-777d-410f-bb54-86bd37549eee.png)
 
+### Clicked/unclicked 
+- To check or unchecks items from the list.
+
+### No Script Tag
+- When the browser does not support JavaScript.
+
+### 404 page
+
+
 ### Favicon 
 - The icon in the browser page is a list.
 
 ![image](https://user-images.githubusercontent.com/112726044/204653471-4c925061-0ca8-4f4e-b439-37f7ef70dcab.png)
+
+
+
 
 ### Languages Used
 

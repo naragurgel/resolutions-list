@@ -22,6 +22,7 @@ function createNewResolutionItem(dataInput, isClicked) {
         <div onclick="tagTask(${count})" class="icon-name">
             ${dataInput}
         </div>
+      
         <div class="icon-button">
             <button onclick="delet(${count})" class="delet"><i class="mdi mdi-delete"></i>Delete</button>
             
@@ -45,12 +46,12 @@ function addResolution() {
 }
 
 //to delete a item from the list
+
 function delet(id) {
     let task = document.getElementById(id);
     task.remove();
     saveResolutionData();
 }
-
 // when the user tag as checks or unchecks each item from the list
 function tagTask(id) {
     let item = document.getElementById(id);
@@ -118,13 +119,13 @@ function preloadResolutionsFromLocalStorage() {
     if (reso_object !== null && typeof (reso_object.resolutions) !== undefined && reso_object.resolutions)
         for (const resolution of reso_object.resolutions) {
             if (typeof (resolution.text) !== undefined && typeof (resolution.complete !== undefined)) {
-                const dataInput = resolution.text
-                const clicked = resolution.complete === 'yes' ? 'clicked' : '';
                 createNewItem(dataInput, clicked);
             }
         }
 }
 
+            const dataInput = resolution.text
+            const clicked = resolution.complete === 'yes' ? 'clicked' : '';
 /**
  * All resouces are ready, check 
  */
