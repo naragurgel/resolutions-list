@@ -58,14 +58,14 @@ function tagTask(id) {
     console.log(kind);
 
     if (kind == "item") {
-        item.classList.add('clicked')
+        item.classList.add('clicked');
 
-        let icon = document.getElementById('icon_' + id)
+        let icon = document.getElementById('icon_' + id);
         icon.classList.remove('mdi-circle-outline');
         icon.classList.add('mdi-check-circle');
 
     } else {
-        item.classList.remove('clicked')
+        item.classList.remove('clicked');
 
         let icon = document.getElementById('icon_' + id);
         icon.classList.remove('mdi-check-circle');
@@ -81,7 +81,7 @@ input.addEventListener("keyup", function (event) {
         btnAdd.click();
         saveResolutionData();
     }
-})
+});
 
 /**
  * Function to save the resolution data into local storage so user doesn't have to reenter data if they come back to the site 
@@ -96,12 +96,12 @@ function saveResolutionData() {
     for (const resolution of resolutions) {
         const text = resolution.querySelector('.icon-name').innerHTML.trim();
         const completed = resolution.classList.contains('clicked') ? 'yes' : 'no';
-        new_resolution = {
+        const new_resolution = {
             'text': text,
             'complete': completed
         };
         reso_array.push(new_resolution);
-    };
+    }
     const reso_object = { resolutions: reso_array };
     //save data to local storage
     localStorage.setItem('naragurgelResolutionsList', JSON.stringify(reso_object));
@@ -114,10 +114,9 @@ function saveResolutionData() {
  */
 
 function preloadResolutionsFromLocalStorage() {
-    let reso_object = JSON.parse(localStorage.getItem('naragurgelResolutionList'));
-    if (reso_object !== null && typeof (reso_object.resolutions) !== undefined && reso_object.resolution)
-        for (const resolution of reso_object.resolutions.count > 0) {
-            //mke sure we have the two expect parts of the resolution
+    let reso_object = JSON.parse(localStorage.getItem('naragurgelResolutionsList'));
+    if (reso_object !== null && typeof (reso_object.resolutions) !== undefined && reso_object.resolutions)
+        for (const resolution of reso_object.resolutions) {
             if (typeof (resolution.text) !== undefined && typeof (resolution.complete !== undefined)) {
                 const dataInput = resolution.text
                 const clicked = resolution.complete === 'yes' ? 'clicked' : '';
@@ -135,4 +134,4 @@ document.onreadystatechange = function () {
     if (state == 'complete') {
         preloadResolutionsFromLocalStorage();
     }
-}
+};
