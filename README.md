@@ -83,7 +83,6 @@ The colour palette was created using the to generate some colour codes as inspir
 The colours are cheerful tones that match the image that brings the feeling of a party, celebration, and a fresh start.
 
 ### Typography
-
 Google Fonts was used for the following font:
 
 Roboto is used for the page. It's a modern and smooth font that brings clarity to the text.
@@ -92,8 +91,19 @@ Roboto is used for the page. It's a modern and smooth font that brings clarity t
 The photos featured throughout the site were obtained from free image providers such as Pexels. I chose the bg-image for the background because it is an image that has party confetti, it refers to celebrations and that is why it is associated with the new year celebration. 
 
 ### Site Structure
-
 Resolution's List is 1 pages website, where the user can easily interact creating a list of wishes for the next year.
+
+### Wireframes
+The Wireframes were produced using Balsamiq. The final site varies from the wireframes due to developments that occurred during the building process.
+
+#### Phone
+![image](https://user-images.githubusercontent.com/112726044/205160621-e57a0f4c-3868-42b6-ad6e-2578946cdc1f.png)
+
+#### Desktop
+![image](https://user-images.githubusercontent.com/112726044/205160126-adcb883f-cbc8-488f-bcee-2c473eaa2011.png)
+
+#### Tablet
+![image](https://user-images.githubusercontent.com/112726044/205160849-665fdae2-9618-461b-938c-0cd4bfd55d90.png)
 
 ## Features
 
