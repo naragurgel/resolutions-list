@@ -137,8 +137,11 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 
 ![image](https://user-images.githubusercontent.com/112726044/204653471-4c925061-0ca8-4f4e-b439-37f7ef70dcab.png)
 
-
-
+### Future features
+- Reordering done items to bottom with a date-timestamp of when it was completed.
+- Don’t allow duplicate entries.
+- Proactive error messaging if user tries to add empty or duplicate items.
+- Email user resolution list.
 
 ### Languages Used
 

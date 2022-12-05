@@ -13,7 +13,7 @@ function createNewResolutionItem(dataInput, isClicked) {
         let newItem = `<div id="${count}" class="item ${isClicked}">
         <div onclick="tagTask(${count})" class="icon-item">`;
 
-        if (isClicked === 'cliked') {
+        if (isClicked === 'clicked') {
             newItem += `<i id="icon_${count}" class="mdi mdi-check-circle"></i>`;
         } else {
             newItem += `<i id="icon_${count}" class="mdi mdi-circle-outline"></i>`;
@@ -119,13 +119,15 @@ function preloadResolutionsFromLocalStorage() {
     if (reso_object !== null && typeof (reso_object.resolutions) !== undefined && reso_object.resolutions)
         for (const resolution of reso_object.resolutions) {
             if (typeof (resolution.text) !== undefined && typeof (resolution.complete !== undefined)) {
-                createNewItem(dataInput, clicked);
+                
+                const dataInput = resolution.text
+                const clicked = resolution.complete === 'yes' ? 'clicked' : '';
+                
+                createNewResolutionItem(dataInput, clicked);
             }
         }
 }
 
-            const dataInput = resolution.text
-            const clicked = resolution.complete === 'yes' ? 'clicked' : '';
 /**
  * All resouces are ready, check 
  */

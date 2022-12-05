@@ -57,12 +57,16 @@ I Used Lighthouse in Chrome Developer Tools to test each of the pages for:
 - Looks good on mobile 
 - Looks good on tablet
 - Looks good on desktop
+- Inability to enter a blank or empty string
+- No javascript tag working
 
 **Responsiveness**
 - Bg image takes 100% with across all devices
 - 
 
 ## Bugs
+- I had a issue with the BG not going full height if user added too many, but it was fixed.
+- Clicked/ unclicked check circle was reordering itens, it is also fixed.
 
 ### Defects of Note
 
