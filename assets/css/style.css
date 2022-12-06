@@ -154,6 +154,8 @@ button.add {
 #p404 {
     background: var(--gray);
     border-radius: 10px;
+    text-align: center;
+    font-size: 3rem;
 }
 
 /*mediaquerie for 480px mobil */
