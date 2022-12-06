@@ -135,9 +135,8 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 
 ### Clicked/unclicked 
 - To check or unchecks items from the list.
-![image](https://user-images.githubusercontent.com/112726044/205948426-1618236e-157b-40a3-829f-072e080bb84f.png)
 
-![image](https://user-images.githubusercontent.com/112726044/205948489-59d48d07-f4f2-4c2c-9191-8ce445ddbdd3.png)
+![Screenshare - 2022-12-06 4_55_28 PM (1)](https://user-images.githubusercontent.com/112726044/205975609-07be42bb-ef12-44c3-b0c6-f0b90f28f855.gif)
 
 ### No Script
 - When the browser does not support JavaScript.
@@ -158,6 +157,7 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 ### Preload data
 - This stores the data placed on the list, so the user does not need to type the same things every time they open it, the information is recorded in local storage.
 
+![image](https://user-images.githubusercontent.com/112726044/205980629-8286084d-b88b-443d-a3b1-8a251f67e661.png)
 
 ### Future features
 - Reordering done items to bottom with a date-timestamp of when it was completed.
@@ -229,6 +229,7 @@ To make a copy or ‘fork’ the repository -
 
 ## Credits 
 
+I would like to say thank you to my mentor Malia, she's vey very patient, always available to help in the best way possible, with her great experience in the area.
 
 ## Media
 - Bg image is from Pexels website, free images.
