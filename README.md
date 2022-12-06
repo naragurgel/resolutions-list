@@ -4,11 +4,12 @@ Resolution's List New Year ate the determinations or goals that we set at the be
 In this list they can add new items, mark them as done or also delete them any time.
 
 ## Live Site
-[Resolution's List]
+
+https://naragurgel.github.io/resolutions-list/
 
 ## Repository 
 
-- - -
+https://github.com/naragurgel/resolutions-list
 
 ## Author
 Nara Gurgel
@@ -37,14 +38,13 @@ Nara Gurgel
     * [No Script](#no-script)
     * [404 Page](#404-page)
     * [Favicon](#favicon)
-    * [Preloading](#Preloading)
     * [Storage](#Storage)
         
-3. [Future Features] (#future-features)
+3. [Future Features](#future-features)
 
 4. [Technologies Used](#technologies-used)  
     * [Languages Used](#languages-used)
-    * [Tools and Libraries](#tool-and-libraries)
+    * [Tools and Libraries](#tools-and-libraries)
 
 5. [Testing](#testing)
 
@@ -146,8 +146,6 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 
 ![image](https://user-images.githubusercontent.com/112726044/204653471-4c925061-0ca8-4f4e-b439-37f7ef70dcab.png)
 
-### Preloading
-
 ### Storage
 
 
@@ -157,11 +155,13 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 - Proactive error messaging if user tries to add empty or duplicate items.
 - Email user resolution list.
 
+## Technologies Used
+
 ### Languages Used
 
 -HTML, CSS and Java Script were used to create this page.
 
-### Frameworks, Libraries and Programs
+### Tools and Libraries
 
 - [coolors.co](https://coolors.co/d3ab9e-eac9c1-ebd8d0-fffbff-fefeff) - the colour scheme was inspired by colours generated here 
 - [Material Design Icons](https://materialdesignicons.com/) - icons implemented throughout the page
