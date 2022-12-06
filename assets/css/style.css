@@ -37,10 +37,24 @@ h1 {
         0px 0px 20px #5b95bc;
 }
 
-#nojs {
+#boxnjs{
+    height: 60px;
+    font-size: 2rem;
+    width: 100%;
+    background-color: var(--blue);
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding-top: 10px;
     text-align: center;
-    color: red;
-    font-size: 3rem;
+}
+
+noscript#nojs {
+    width: 80%;
+} 
+
+#nojs {
+    color: black;
+    font-weight: bold;
 }
 
 header {
@@ -135,4 +149,11 @@ button.add {
 
 .mdi-check-circle {
     color: var(--blue);
+}
+
+/*mediaquerie for 480px mobil */
+@media screen and (max-width: 480px) {
+    .input {
+        font-size: 1rem;
+    }
 }
