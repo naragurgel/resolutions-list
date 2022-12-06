@@ -33,9 +33,10 @@ Nara Gurgel
     * [Header](#header)
     * [Type your resolution](#type-your-resolution)
     * [Items of the list](#items-of-the-list)
-    * [Favicon](#favicon)
+    * [Clicked/unclicked](#clicked/unclicked)
+    * [No Script](#no-script)
     * [404 Page](#404-page)
-    * [NonScript](#NonScript)
+    * [Favicon](#favicon)
     * [Preloading](#Preloading)
     * [Storage](#Storage)
         
@@ -120,10 +121,10 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 
 ![image](https://user-images.githubusercontent.com/112726044/204653223-f9c3d9d6-9221-4579-b4a9-9c31e8e17a9b.png)
 
-### Type your resolution
+### Type here
 - The bar with the input where the user can type the resolution text and there is a button just beside to add an item to the list.
 
-![image](https://user-images.githubusercontent.com/112726044/204653316-4a94895d-c576-4ff1-835a-c8ac03cb376a.png)
+
 
 ### Items of the list
 - After the user add a new item do the list, they can tag the item has done or not yet, they can also delete it.
@@ -133,16 +134,22 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 ### Clicked/unclicked 
 - To check or unchecks items from the list.
 
-### No Script Tag
+### No Script
 - When the browser does not support JavaScript.
 
 ### 404 page
-
+- The page has a text to explain that it was not possible to find the specific destiny.
+- The page has a link to go back to the index page.
 
 ### Favicon 
 - The icon in the browser page is a list.
 
 ![image](https://user-images.githubusercontent.com/112726044/204653471-4c925061-0ca8-4f4e-b439-37f7ef70dcab.png)
+
+### Preloading
+
+### Storage
+
 
 ### Future features
 - Reordering done items to bottom with a date-timestamp of when it was completed.
