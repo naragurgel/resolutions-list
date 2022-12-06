@@ -120,7 +120,7 @@ function preloadResolutionsFromLocalStorage() {
         for (const resolution of reso_object.resolutions) {
             if (typeof (resolution.text) !== undefined && typeof (resolution.complete !== undefined)) {
 
-                const dataInput = resolution.text
+                const dataInput = resolution.text;
                 const clicked = resolution.complete === 'yes' ? 'clicked' : '';
 
                 createNewResolutionItem(dataInput, clicked);
