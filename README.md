@@ -3,6 +3,8 @@
 Resolution's List New Year ate the determinations or goals that we set at the beginning of the year. Usually, the New Years represents a new starting, so people like to leave bad habits behind and try new things.
 In this list they can add new items, mark them as done or also delete them any time.
 
+![image](https://user-images.githubusercontent.com/112726044/205948125-93ffb176-1782-4c4a-ba6d-64c41ad513ab.png)
+
 ## Live Site
 
 https://naragurgel.github.io/resolutions-list/
@@ -38,7 +40,7 @@ Nara Gurgel
     * [No Script](#no-script)
     * [404 Page](#404-page)
     * [Favicon](#favicon)
-    * [Storage](#Storage)
+    * [Preload data](#preload-data)
         
 3. [Future Features](#future-features)
 
@@ -124,7 +126,7 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 ### Type here
 - The bar with the input where the user can type the resolution text and there is a button just beside to add an item to the list.
 
-
+![image](https://user-images.githubusercontent.com/112726044/205948304-471a93d8-8b5d-458a-a68c-4811ad448bc7.png)
 
 ### Items of the list
 - After the user add a new item do the list, they can tag the item has done or not yet, they can also delete it.
@@ -133,20 +135,28 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 
 ### Clicked/unclicked 
 - To check or unchecks items from the list.
+![image](https://user-images.githubusercontent.com/112726044/205948426-1618236e-157b-40a3-829f-072e080bb84f.png)
+
+![image](https://user-images.githubusercontent.com/112726044/205948489-59d48d07-f4f2-4c2c-9191-8ce445ddbdd3.png)
 
 ### No Script
 - When the browser does not support JavaScript.
 
+![image](https://user-images.githubusercontent.com/112726044/205950376-47f49621-ca29-4177-8050-f40b6315c3f2.png)
+
 ### 404 page
 - The page has a text to explain that it was not possible to find the specific destiny.
 - The page has a link to go back to the index page.
+
+![image](https://user-images.githubusercontent.com/112726044/205947377-a3407dc9-0bd4-44f9-9939-cf92ff3f24ae.png)
 
 ### Favicon 
 - The icon in the browser page is a list.
 
 ![image](https://user-images.githubusercontent.com/112726044/204653471-4c925061-0ca8-4f4e-b439-37f7ef70dcab.png)
 
-### Storage
+### Preload data
+- This stores the data placed on the list, so the user does not need to type the same things every time they open it, the information is recorded in local storage.
 
 
 ### Future features
@@ -166,11 +176,15 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 - [coolors.co](https://coolors.co/d3ab9e-eac9c1-ebd8d0-fffbff-fefeff) - the colour scheme was inspired by colours generated here 
 - [Material Design Icons](https://materialdesignicons.com/) - icons implemented throughout the page
 - [Google Fonts](https://fonts.google.com/) - Both fonts used in the website imported from here 
-- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment style and general responsiveness. 
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment style and general responsiveness
 - [Gitpod](https://www.gitpod.io/) - used to used to create and host the website
 - [Github](https://github.com/) - used to deploy the website 
 - [Am I responsive](https://ui.dev/amiresponsive) - to create an image displaying the home page on various devices 
-   
+- [Favicon](https://favicon.io/) - Used to create the Icon for the website
+- [Balsamiq](https://balsamiq.cloud/) - Used to build the wireframes
+- [Table Generator](https://www.tablesgenerator.com/) - Used to make a table of de devices and desktops tested
+- [Browserstack](https://www.browserstack.com/) Provided browser compatibility with real desktop and mobile devices.
+
 ### Deployment 
 
 The site was deployed to GitHub pages. 
@@ -178,9 +192,20 @@ The site was deployed to GitHub pages.
 ### Deploy to GitHub Pages
 
 1. Navigate to the settings tab in the GitHub repository 
+
+![image](https://user-images.githubusercontent.com/112726044/205953352-f444d462-8986-49e6-b0d5-a0aade828263.png)
+
 2. Once in settings, navigate to the pages tab on the left of the page 
+
+![image](https://user-images.githubusercontent.com/112726044/205953500-038afef8-e987-4009-81df-827d6e38f584.png)
+
 3. Under source, select branch ‘main’ and then click ‘save’
+
+![image](https://user-images.githubusercontent.com/112726044/205952909-dbc46459-3592-4696-8108-02fbd7598b6a.png)
+
 4. page will no automatically refresh and show a detailed ribbon display to indicate deployment 
+
+![image](https://user-images.githubusercontent.com/112726044/205953579-4779cda4-0769-4f57-a675-2e9586afe9be.png)
 
 ### To Fork the Repository 
 
