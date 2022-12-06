@@ -151,6 +151,11 @@ button.add {
     color: var(--blue);
 }
 
+#p404 {
+    background: var(--gray);
+    border-radius: 10px;
+}
+
 /*mediaquerie for 480px mobil */
 @media screen and (max-width: 480px) {
     

@@ -51,26 +51,47 @@ I Used Lighthouse in Chrome Developer Tools to test each of the pages for:
 
 ### Browser Compatibility
 
+The site was tested and I ensured my site is working well as fallow in the table below:
+
+| Device             | BROSWER        | OS             | VIEWPOINT     |
+|--------------------|----------------|----------------|---------------|
+| Iphone 14 Pro      | Safari         | iOS, v16       | 390 x 664px   |
+| Iphone 12          | Safari         | iOS, v14       | 390 x 664px   |
+| Samsung Galaxy S21 | Firefox        | Android, v11   | 412 x 782px   |
+| Samsung Galaxy     | Chrome         | Android, v12   | 384 x 693px   |
+| Moto G9            | Firefox        | Android, v10   | 412 x 804px   |
+| Xiaomi Redmi       | Chrome         | Android, v11   | 393 x 736px   |
+| Windows            | Opera 92       | Windows 11     | 1440 x 821px  |
+| Ipad Pro 12.9      | Safari         | iOS, V15.3     | 1024 x 1292px |
+| Windows 10         | Microsoft Edge | Windows 10     | 1440 x 821px  |
+| MAC BOOK           | Safari 15.6    | macOS Monterey | 1440 x 821px  |
+
 ## Manual Testing
 
 **Manual Testing For Resolution's List**
 - The Add button is working
 - The Delete button is working
 - The check circle button is working 
+- Pre-loading is working, If the user close the page the data still saved
 - No console errors
 - Looks good on mobile 
 - Looks good on tablet
 - Looks good on desktop
 - Inability to enter a blank or empty string
 - No javascript tag working
+- No console errors
 
 **Responsiveness**
 - Bg image takes 100% with across all devices
+- Browswer xompatibolity tested and all worked fine
+- Buttons are working normally
+- Easy to undertand and to use
 
 ## Bugs
-- I had a issue with the BG not going full height if user added too many, but it was fixed.
-- Clicked/ unclicked check circle was reordering itens, it is also fixed.
+- Clicked/ unclicked check circle was reordering itens, it was very confunsing bu I fixed the code.
 
+### Defects of note
+- I had a issue with the back ground image not going full height if user added too many items to the list. The back ground image is now fixed, so it doesn't go blank even with a lot items on the page. 
 
 ## README
 
