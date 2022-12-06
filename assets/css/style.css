@@ -151,9 +151,7 @@ button.add {
     color: var(--blue);
 }
 
-#p404 {
-    background: var(--gray);
-    border-radius: 10px;
+#ops {
     text-align: center;
     font-size: 3rem;
 }
