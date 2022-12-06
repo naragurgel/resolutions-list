@@ -151,10 +151,12 @@ button.add {
     color: var(--blue);
 }
 
-#ops {
-    text-align: right;
+#p404 {
+    margin: 20px;
+}
+.ops {
+    text-align: left;
     font-size: 2rem;
-    margin-left: 30px;
 }
 
 /*mediaquerie for 480px mobil */
