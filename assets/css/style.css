@@ -153,6 +153,11 @@ button.add {
 
 /*mediaquerie for 480px mobil */
 @media screen and (max-width: 480px) {
+    
+    .h1{
+        font-size: 3rem;
+    }
+    
     .input {
         font-size: 1rem;
     }
