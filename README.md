@@ -8,14 +8,15 @@ In this list they can add new items, mark them as done or also delete them any t
 
 ## Repository 
 
-
 - - -
+
+## Author
+Nara Gurgel
 
 ## **Table of Contents**
 
 1. [UX Development](#ux-development)
     * [Project Goal](#project-goal)
-
     * [User Stories](#user-stories)
         * [First Time Visitors](#first-time-visitors)
         * [Returning Users](#returning-users)
@@ -33,18 +34,24 @@ In this list they can add new items, mark them as done or also delete them any t
     * [Type your resolution](#type-your-resolution)
     * [Items of the list](#items-of-the-list)
     * [Favicon](#favicon)
+    * [404 Page](#404-page)
+    * [NonScript](#NonScript)
+    * [Preloading](#Preloading)
+    * [Storage](#Storage)
         
-3. [Technologies Used](#technologies-used)  
+3. [Future Features] (#future-features)
+
+4. [Technologies Used](#technologies-used)  
     * [Languages Used](#languages-used)
-    * [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
+    * [Tools and Libraries](#tool-and-libraries)
 
-4. [Testing](#testing)
+5. [Testing](#testing)
 
-5. [Deployment](#deployment)  
+6. [Deployment](#deployment)  
   
-6. [Credits](#credits)  
+7. [Credits](#credits)  
  
-7. [Media](#media)  
+8. [Media](#media)  
 - - -
 
 # **Table of Contents**
