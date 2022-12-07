@@ -4,6 +4,11 @@ let input = document.getElementById('inputReso');
 let btnAdd = document.getElementById('btn-add');
 let main = document.getElementById('listReso');
 
+/**
+ * Function: createNewResolutionItem creates a resolution item in the list placeholder element
+ * @param {*} dataInput : resolution text
+ * @param {*} isClicked : is  the item completed or not 
+ */
 function createNewResolutionItem(dataInput, isClicked) {
     //If it is not empty, null or undefined 
     if ((dataInput !== "") && (dataInput !== null) && (dataInput !== undefined)) {
@@ -34,6 +39,9 @@ function createNewResolutionItem(dataInput, isClicked) {
     }
 }
 
+/** 
+ * Function: addResolution get the data from the input
+*/
 function addResolution() {
     //to get the data from the input
     let dataInput = input.value;
@@ -45,14 +53,14 @@ function addResolution() {
     input.focus();
 }
 
-//to delete a item from the list
+//Function delet: to delete a item from the list
 
 function delet(id) {
     let task = document.getElementById(id);
     task.remove();
     saveResolutionData();
 }
-// when the user tag as checks or unchecks each item from the list
+//Function tagTask: when the user tag as checks or unchecks each item from the list
 function tagTask(id) {
     let item = document.getElementById(id);
     let kind = item.getAttribute('class');
