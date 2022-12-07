@@ -71,23 +71,24 @@ The site was tested and I ensured my site is working well as fallow in the table
 ## Manual Testing
 
 **Manual Testing For Resolution's List**
-- The Add button is working
-- The Delete button is working
-- The check circle button is working 
+- The Add button is working.
+- The Delete button is working.
+- The check circle button is working.
 - Pre-loading is working, If the user close the page the data still saved
-- No console errors
-- Looks good on mobile 
-- Looks good on tablet
-- Looks good on desktop
-- Inability to enter a blank or empty string
-- No javascript tag working
-- No console errors
+- No console errors.
+- Looks good on mobile.
+- Looks good on tablet.
+- Looks good on desktop.
+- Inability to enter a blank or empty string.
+- No javascript tag working.
+- No console errors.
+- If user goes outside of deployed site domain to say, https://naragurgel.github.io/resolutions-list/hello they see the custom 404 that takes them ask to the index.html page.
 
 **Responsiveness**
-- Bg image takes 100% with across all devices
-- Browswer xompatibolity tested and all worked fine
-- Buttons are working normally
-- Easy to undertand and to use
+- Bg image takes 100% with across all devices.
+- Browswer xompatibolity tested and all worked fine.
+- Buttons are working normally.
+- Easy to undertand and to use.
 
 ## Bugs
 - Clicked/ unclicked check circle was reordering itens, it was very confunsing bu I fixed the code.
