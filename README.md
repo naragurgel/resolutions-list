@@ -65,12 +65,19 @@ Demonstrate my competence using HTML, CSS and Java Script languages to build a r
 
 The page should promote a new years' resolution's list where the user can interact adding, deleting and tag the items as checked or unchecked.
 
-## User Stories
+### User Stories
+* As a person, I want a site where I can list my resolutions so I can improve myself in the new year.
+* As a web designer I want a simple to use site that is pleasing to look at so users will visit again and again to manage their resolutions.
+* As a user, I don't want to have to re-enter resolutions each time I visit, so I can just update without a lot of interaction.
+* As a developer I want to implement local storage, so I can enhance my javascript skill so I can have a better chance at getting a nice entry position on my chosen career path. 
+* As a user, I want to delete and item from my list, if I find it impossible to do.
+* As a user I want to make items as complete on. my list so I can feel good about accomplishing things.
+* As a user I want to add items to my list easily so that I can have many things to improve about myself in the new year.
+
 ### First Time Visitors
 * Be able to create a list of goals for the New Year.
-* People interested about organize determinations for the next New Year.
-* A simple designer and clear structure to easily navigate the page.
-* Able to open and edit from mobile or desktop.
+* Provide a website for people interested about organizing tasks for the next New Year.
+* Able to open and edit from mobile or desktop whenever a new thought comes to mind
 
 ### Returning Users
 * Be able to add more items.
@@ -79,7 +86,6 @@ The page should promote a new years' resolution's list where the user can intera
 
 ### Site Owners Goals
 * Create an easily navigated site using a single page format.
-* Use single-page layout
 * Give a positive user experience through colors and layout.
 * Created the storage data to save the items for the user.
 
@@ -97,6 +103,7 @@ The colors are cheerful tones that match the image that brings the feeling of a 
 Google Fonts was used for the following font:
 
 Roboto is used for the page. It's a modern and smooth font that brings clarity to the text.
+https://fonts.google.com/specimen/Roboto?query=robo
 
 ### Imagery
 The photos featured throughout the site were obtained from free image providers such as Pexels. I chose the bg-image for the background because it is an image that has party confetti, it refers to celebrations and that is why it is associated with the new year celebration. 
@@ -137,6 +144,9 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 - To check or unchecks items from the list.
 
 ![Screenshare - 2022-12-06 4_55_28 PM (1)](https://user-images.githubusercontent.com/112726044/205975609-07be42bb-ef12-44c3-b0c6-f0b90f28f855.gif)
+
+![image](https://user-images.githubusercontent.com/112726044/206255863-57c7e065-4ce0-411c-b826-0a01ec23b3e4.png)
+
 
 ### No Script
 - When the browser does not support JavaScript.
