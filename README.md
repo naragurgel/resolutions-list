@@ -61,26 +61,26 @@ Nara Gurgel
 
 ## UX Development
  ### Project Goal
-Demonstrate my competence using HTML,CSS and Java Script languages to build a responsive and interactive website.
+Demonstrate my competence using HTML, CSS and Java Script languages to build a responsive and interactive website.
 
-The page should promote a new years resolution's list where the user can interact adding, deleting and tag the itens as check or unchecks.
+The page should promote a new years' resolution's list where the user can interact adding, deleting and tag the items as checked or unchecked.
 
 ## User Stories
 ### First Time Visitors
-* Be able to creat a list of goals for the New Year.
-* People interested about organize determitations for the next New Year.
+* Be able to create a list of goals for the New Year.
+* People interested about organize determinations for the next New Year.
 * A simple designer and clear structure to easily navigate the page.
 * Able to open and edit from mobile or desktop.
 
 ### Returning Users
-* Be able to add more itens.
-* Be able to tag the itens as check or unchecks.
+* Be able to add more items.
+* Be able to tag the items as checked or unchecked.
 * Be able to delete a item from the list.
 
 ### Site Owners Goals
 * Create an easily navigated site using a single page format.
 * Use single-page layout
-* Give a positive user experience through colours and layout.
+* Give a positive user experience through colors and layout.
 * Created the storage data to save the items for the user.
 
 ## Design
@@ -91,7 +91,7 @@ The colour scheme was inspired by the bg image, with gold, gray, green, rose and
 ![image](https://user-images.githubusercontent.com/112726044/204652701-665c9882-a7fa-4af2-ac44-cf1e00e816e3.png)
 
 The colour palette was created using the to generate some colour codes as inspiration for the site.
-The colours are cheerful tones that match the image that brings the feeling of a party, celebration, and a fresh start.
+The colors are cheerful tones that match the image that brings the feeling of a party, celebration, and a fresh start.
 
 ### Typography
 Google Fonts was used for the following font:
@@ -133,7 +133,7 @@ The Wireframes were produced using Balsamiq. The final site varies from the wire
 
 ![image](https://user-images.githubusercontent.com/112726044/204653434-cd293512-777d-410f-bb54-86bd37549eee.png)
 
-### Clicked/unclicked 
+### Ckeched/unchecked 
 - To check or unchecks items from the list.
 
 ![Screenshare - 2022-12-06 4_55_28 PM (1)](https://user-images.githubusercontent.com/112726044/205975609-07be42bb-ef12-44c3-b0c6-f0b90f28f855.gif)
@@ -229,7 +229,7 @@ To make a copy or ‘fork’ the repository -
 
 ## Credits 
 
-I would like to say thank you to my mentor Malia, she's vey very patient, always available to help in the best way possible, with her great experience in the area.
+I would like to say thank you to my mentor Malia, she's very patient, always available to help in the best way possible, with her great experience in the area.
 
 ## Media
 - Bg image is from Pexels website, free images.
